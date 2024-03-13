@@ -7,8 +7,24 @@
 
 .container div {
     padding: 1rem;
+    background-color: lightseagreen;
 }
 
 .linn-img {
     width: 300px;
+    padding: 5px;
 }
+
+.linn-nupp {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px; /* Veidi ruumi nuppude vahel */
+  }
+  
+  .linn-nupp:hover {
+    background-color: #0056b3;
+  }
